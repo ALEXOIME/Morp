@@ -8,11 +8,6 @@
     <link rel="stylesheet" href="../../client/css/style.css">
 </head>
 <body>
-    <?php $test = [
-
-        'salut' => 'baise'
-
-    ] ?>
     <main>
         <div class="morp-content">
             <div class="grid-top">
