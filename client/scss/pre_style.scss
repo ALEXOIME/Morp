@@ -1,0 +1,52 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+
+    main{
+
+        height: 100%;
+
+        .morp-content{
+
+            margin: auto;
+            width: max-content;
+            height: max-content;
+    
+        }
+    
+        .grid-top, .grid-milled, .grid-bottom{
+    
+            display: flex;
+    
+        }
+    
+        .case-morp-top-left, .case-morp-top-milled, .case-morp-top-right, .case-morp-milled-left, .case-morp-milled-milled, .case-morp-milled-right,
+        .case-morp-bottom-left, .case-morp-bottom-milled, .case-morp-bottom-right{
+    
+            width: 100px;
+            height: 100px;
+            border: 2px solid #000000;
+    
+        }
+
+        .top-left, .top-milled, .top-right{
+
+            width: max-content;
+            height: max-content;
+            margin: auto;
+
+        }
+    
+        .croix{
+
+            width: 50px;
+            height: 50px;
+
+        }
+
+    }
+
+}
